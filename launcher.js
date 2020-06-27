@@ -20,7 +20,7 @@ class Launcher{
             var pointA = this.body.bodyA.position;
             var pointB = this.pointB;
             strokeWeight(4);
-            stroke("black);
+            fill(0);
             line(pointA.x, pointA.y, pointB.x, pointB.y);
         }
     }
