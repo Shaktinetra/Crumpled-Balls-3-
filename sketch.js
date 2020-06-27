@@ -29,6 +29,7 @@ function draw() {
    	paper.display();
 	ground.display();
 	trash.display();
+	launcher.display();
 	Engine.update(engine);
 }
 
