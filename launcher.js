@@ -3,8 +3,8 @@ class Launcher{
         var options = {
             bodyA: bodyA,
             pointB: pointB,
-            stiffness: 0.3,
-            length: 20
+            stiffness: 0.04,
+            length: 50
         }
         this.pointB = pointB;
         this.body = Constraint.create(options);
@@ -16,10 +16,11 @@ class Launcher{
     }
 
     display(){
-        if (this.body.bodyA != null) {
+        if (this.body.bodyA) {
             var pointA = this.body.bodyA.position;
             var pointB = this.pointB;
             strokeWeight(3);
+            stroke("white")
             line(pointA.x, pointA.y, pointB.x, pointB.y);
         }
     }
