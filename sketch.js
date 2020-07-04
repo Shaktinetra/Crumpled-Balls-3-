@@ -18,7 +18,7 @@ function setup() {
 	paper = new Paper (50, 610);
 	ground = new Ground();
 	trash = new Trash();	
-	launcher = new Launcher(paper.body, {x: 300, y: 300});
+	launcher = new Launcher(paper.body, {x: 200, y: 300});
 	
 	Engine.run(engine);
 }
