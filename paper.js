@@ -19,7 +19,7 @@ class Paper {
         translate(pos.x, pos.y);
         rotate(angle);
         fill(255);
-        image(this.image, pos.x, pos.y, 50, 50);
+        image(this.image, 0, 0, 50, 50);
         pop();
     }
 }
