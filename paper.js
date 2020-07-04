@@ -16,7 +16,7 @@ class Paper {
         push();
         imageMode(CENTER);
         translate(pos.x, pos.y);
-        rotate(angle);
+        rotate(this.body.angle);
         fill(255);
         image(this.image, pos.x, pos.y, 50, 50);
         pop();
