@@ -13,10 +13,11 @@ class Paper {
     }
     display() {
         var pos = this.body.position;
+        var angle = this.body.angle
         push();
         imageMode(CENTER);
         translate(pos.x, pos.y);
-        rotate(this.body.angle);
+        rotate(angle);
         fill(255);
         image(this.image, pos.x, pos.y, 50, 50);
         pop();
