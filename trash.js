@@ -4,8 +4,8 @@ class Trash {
             isStatic: true
         }
         this.bodyb = Bodies.rectangle(600, 500, 180, 10, options);
-        this.bodyr = Bodies.rectangle(635, 500, 10, 200, options);
-        this.bodyl = Bodies.rectangle(565, 500, 10, 200, options);
+        this.bodyr = Bodies.rectangle(690, 500, 10, 200, options);
+        this.bodyl = Bodies.rectangle(510, 500, 10, 200, options);
         this.image = loadImage("dustbingreen.png");
         World.add(world, this.bodyb);
         World.add(world, this.bodyr);
