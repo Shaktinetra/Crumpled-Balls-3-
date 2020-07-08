@@ -15,10 +15,10 @@ function setup() {
 	engine = Engine.create();
 	world = engine.world;
 
-	paper = new Paper (50, 610);
+	paper = new Paper (50, 500);
 	ground = new Ground();
 	trash = new Trash();	
-	launcher = new Launcher(paper.body, {x: 400, y: 300});
+	launcher = new Launcher(paper.body, {x: 300, y: 300});
 	
 	Engine.run(engine);
 }
