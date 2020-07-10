@@ -3,9 +3,9 @@ class Trash {
         var options ={
             isStatic: true
         }
-        this.bodyb = Bodies.rectangle(600, 500, 180, 10, options);
-        this.bodyr = Bodies.rectangle(690, 500, 10, 200, options);
-        this.bodyl = Bodies.rectangle(510, 500, 10, 200, options);
+        this.bodyb = Bodies.rectangle(700, 500, 180, 10, options);
+        this.bodyr = Bodies.rectangle(790, 500, 10, 200, options);
+        this.bodyl = Bodies.rectangle(610, 500, 10, 200, options);
         this.image = loadImage("dustbingreen.png");
         World.add(world, this.bodyb);
         World.add(world, this.bodyr);
@@ -14,6 +14,6 @@ class Trash {
 
     display() {
         imageMode(CENTER);
-        image(this.image, 600, 500, 200, 200)
+        image(this.image, 700, 520, 200, 200)
     }
 }
