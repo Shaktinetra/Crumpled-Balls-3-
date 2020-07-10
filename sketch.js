@@ -7,7 +7,7 @@ const Body = Matter.Body;
 const Constraint = Matter.Constraint;
 
 function setup() {
-	createCanvas(800, 700);
+	createCanvas(1000, 700);
 
 	ellipseMode(CENTER);
 	rectMode(CENTER);
